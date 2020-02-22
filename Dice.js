@@ -13,7 +13,6 @@ function deez(nutz){
 function loadNumbers(){
     var x;
     for(x = 0;x < 10;x++){
-        numbers[x]++;
         document.getElementById(paragraphs[x]).innerHTML = numbers[x];
     }
 }
